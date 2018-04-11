@@ -3,7 +3,7 @@ GO
 
 SELECT *
   FROM [dbo].[Transactions]
-  Where [Timestamp] = GETDATE()
+  Where [Timestamp] = convert(date,  getdate())
 GO
 
 
