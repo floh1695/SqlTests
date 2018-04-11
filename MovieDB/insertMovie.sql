@@ -14,5 +14,3 @@ INSERT INTO [dbo].[Movies]
            ,NULL
            ,8)
 GO
-
-
